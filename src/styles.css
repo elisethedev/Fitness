@@ -1,1 +1,148 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    margin: 0;
+    padding: 0; 
+}
+
+/*******************/
+/*GENERAL COMPONENTS*/
+/*******************/
+.btn:link, .btn:visited{
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+
+.btn--full:link, .btn--full:visited{
+    background-color: #025464;
+    color: #fff;
+}
+
+.btn--full:hover, .btn--full:active{
+    background-color: #01323c;
+}
+
+.btn--outline:link, .btn--outline:visited{
+    background-color: #fff;
+    color: #555;
+}
+.btn--outline:hover, .btn--outline:active{
+    background-color: #F8F1F1;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
+
+/*******************/
+/*  INTRO SECTION   */
+/*******************/
+
+.section-intro{
+    padding: 4.8rem 4.8rem;
+    background-color:#F8F1F1;
+}
+
+.intro{
+    max-width:130rem;
+    margin: 0 auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:F8F1F1;
+    gap: 9.6rem 0;
+    align-items: center;
+
+}
+
+.intro-description{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+} 
+
+.intro-img{
+    width:75%;
+    padding-left: 5rem;
+}
+
+/*******************/
+/*    HEADER    */
+/*******************/
+
+.heading-primary{
+    font-size: 3.6rem;
+    font-weight:500;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    color:#333;
+    margin-bottom: 3.2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F1F1;
+    height: 5rem;
+    padding-left: 1rem;
+    padding-right: 9.6rem;
+    padding-top: 1rem;
+}
+
+.logo{
+    width: 75px;
+    padding-top: 1.6rem;
+}
+
+/*******************/
+/*  NAVIGATION    */
+/*******************/
+.main-nav-list{
+list-style: none;
+display: flex;
+gap: 3.2rem;
+align-items: center;
+}
+.main-nav-link:link,
+.main-nav-link:visited{
+text-decoration: none;
+color: #333;
+font-weight: 400;
+font-size: 1.8rem;
+transition: all 0.3s;
+display: inline-block;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active{
+color: #E57C23;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited{
+padding: 1.2rem 2.4rem;
+border-radius: 9px;
+color: #fff;
+background-color: #025464;
+transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active{
+background-color: #01323c;
+}
